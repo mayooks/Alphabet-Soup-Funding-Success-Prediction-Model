@@ -2,7 +2,7 @@
 Alphabet Soup wants to develop a tool that can help with selecting  applicants for funding that have the best chance of success in their ventures. In this project data from Alphabet Soup was used to train a  nueral network model that can to help identify funding applicants that have the best chance of succeeding.
 
 
-To build the model a CSV file containing more than 34,000 organizations that have received funding from Alphabet Soup over the years was used. Within this dataset are a number of columns that capture metadata about each organization, such as:
+To build the model a CSV file containing more than 34,000 organizations that have received funding from Alphabet Soup over the years was used. Within this dataset a number of columns that capture metadata about each organization, such as:
 
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
