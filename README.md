@@ -29,4 +29,7 @@ The code below indicated that the data had duplicated columns. However on close 
 
 The number of unique values and data types in each column were determined using the nunique() and dtypes functions.The IS_SUCCESSFUL column has two integers that were unique making it ideal target variable             ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%203.png)
 
+The CLASSIFICATION and APPLICATION_TYPE type columns had 17 and 71 unique values respectively. This is too large for encoding. Therefore binning was used to reduce the unique values in the CLASSIFICATION and APPLICATION_TYPE columns. To do this all unique values that had counts less that 200 value counts were put into the “other” category. This reduced the value counts in this column to 9 from 17![image](https://user-images.githubusercontent.com/103529769/188283912-75117d84-dd88-41b6-b4cc-40927b69e977.png)
+
+!image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%204.png)
  
