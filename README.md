@@ -45,3 +45,9 @@ The categorical data in the X dataframe was then converted into numeric using th
 
 A deep neural network with two hidden layers was built with a activation function of relu. The Output node was binary classifier model with only one output: that decided if the funding application was going to be successful or not. And an output layer activation of sigmoid as the model output is binary classification between 0 and 1. This model had an accuracy of 73.2%
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%209.png)
+
+### Step 3: Optimize the Model
+The model build had an accuracy of 73.2%, this was below the expected 75%. To optimise the model and reach this target, a function was created to find the parameters that can achieve this target. With keras turner it was possible to find parameters that could improve the accuracy to 74%. 
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2010.png)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2011.png)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2012.png)
