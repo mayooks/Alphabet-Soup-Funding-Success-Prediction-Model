@@ -33,5 +33,4 @@ The CLASSIFICATION and APPLICATION_TYPE type columns had 17 and 71 unique values
 
 ![image](https://user-images.githubusercontent.com/103529769/188283912-75117d84-dd88-41b6-b4cc-40927b69e977.png)
 
-![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%204.png)
  
