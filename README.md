@@ -32,3 +32,4 @@ The number of unique values and data types in each column were determined using 
 The CLASSIFICATION and APPLICATION_TYPE type columns had 17 and 71 unique values respectively. This is too large for encoding. Therefore binning was used to reduce the unique values in the CLASSIFICATION and APPLICATION_TYPE columns. To do this all unique values that had counts less that 200 value counts were put into the “other” category. This reduced the value counts in this column to 9 from 17
 
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%204.png)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%205.png)
