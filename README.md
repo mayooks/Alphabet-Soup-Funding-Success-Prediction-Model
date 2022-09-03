@@ -35,4 +35,8 @@ The CLASSIFICATION and APPLICATION_TYPE type columns had 17 and 71 unique values
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%205.png)
 
 The CLASSIFICATION column had 71 unique values. This was reduced to 71 to 5 buy filtering out all unique values that had less 1000 value counts. This meant that the classification column had 5 unique values . After the filtering a new dataframe X was formed
-![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%205.png)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%206.png)
+
+The categorical data in the X dataframe was then converted into numeric using the pandas get_dummies function.  Thereafter the data was split into two for training and testing. The testing data was 33% of the data size. To avoid any bias between the large and small numbers the X_train and X_test data was scaled using the Standardscaler().
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%207.png)
+
