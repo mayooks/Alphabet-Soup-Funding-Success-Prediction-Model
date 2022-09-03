@@ -19,7 +19,7 @@ To build the model a CSV file containing more than 34,000 organizations that hav
 # Step 1: Preprocess the Data
 The following steps were taken to clean up the data and suitable for analysi
 EIN and NAME columns were removed to from the dataset as they where not relevant to the analysis
- ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%201.png)
+ ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2033.png)
 
 The data had no rows with Null values as confirmed by the  code below.
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%201-second.png)
