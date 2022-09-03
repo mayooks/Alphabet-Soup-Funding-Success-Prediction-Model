@@ -51,3 +51,10 @@ The model build had an accuracy of 73.2%, this was below the expected 75%. To op
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2010.png)
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2011.png)
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2012.png)
+
+Since keras turner could only improve the efficiency marginally it possibly means that the accuracy could not be improved further or the data processing needed a bit more. manipulating.  Therefore to further improve the efficiency the  code in jupyter notebook was re-run this time with only  dropping  the “EIN” column “NAME” column from the dataframe as opposed to dropping the both EIN and NAME columns from the dataframe as was done in the first analysis. 
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2013.png)
+
+This improved the efficiency to 80% as can be seen in the. The code for this optimisation can be seen in the <a href="https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/notebooks/ML_Starter_Code_optimised2.ipynb">optimised model notebook</a>. 
+ 
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%2014.png)
