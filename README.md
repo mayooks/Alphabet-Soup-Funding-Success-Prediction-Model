@@ -35,5 +35,4 @@ The CLASSIFICATION and APPLICATION_TYPE type columns had 17 and 71 unique values
 ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%205.png)
 
 The CLASSIFICATION column had 71 unique values. This was reduced to 71 to 5 buy filtering out all unique values that had less 1000 value counts. This meant that the classification column had 5 unique values . After the filtering a new dataframe X was formed
-![image](https://user-images.githubusercontent.com/103529769/188284526-2d416423-6d87-4aa8-bb74-c62c0d6dd78c.png)
-
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%205.png)
