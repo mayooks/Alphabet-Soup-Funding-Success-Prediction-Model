@@ -19,11 +19,11 @@ To build the model a CSV file containing more than 34,000 organizations that hav
 # Step 1: Preprocess the Data
 The following steps were taken to clean up the data and suitable for analysi
 EIN and NAME columns were removed to from the dataset as they where not relevant to the analysis
- [image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%201.png)
+ ![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%201.png)
 
 The data had no rows with Null values as confirmed by the  code below.
-[image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/tree/main/Images)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/tree/main/Images)
 
 The code below indicated that the data had duplicated columns. However on close inspection it appeared that different organisation with similar profiles were flagged as duplicates. Therefore it was decided not to delete the columns that were flagged as duplicates.
-[image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%202.png)
+![image](https://github.com/mayooks/Alphabet-Soup-Funding-Success-Prediction-Model/blob/main/Images/Picture%202.png)
  
